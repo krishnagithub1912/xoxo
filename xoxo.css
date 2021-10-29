@@ -1,40 +1,19 @@
-.container {
-    width: 320px;
-    height: 320px;
-    margin: auto;
-    margin-top: 100px;
-  }
-  
-  .container h1 {
-    text-align: center;
-    font-size: 50px;
-  }
-  
-  .row {
-    height: 100px;
-  }
-  
-  .col {
-    height: 100px;
-    width: 100px;
-    float: left;
-    font-size: 100px;
-    text-align: center;
-    line-height: 100px;
-  }
-  
-  .col:hover {
-      background-color: lightgray;
-  }
-  
-  .border-b {
-    border-bottom: 10px solid rgb(7, 7, 7);
-  }
-  
-  .border-r {
-    border-right: 10px solid rgb(241, 50, 50);
-  }
-  
-  .winner {
-      color: blue;
-  }
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+
+}
+
+
+.cell {
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
